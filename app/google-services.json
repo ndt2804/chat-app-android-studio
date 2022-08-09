@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "38075495436",
+    "firebase_url": "https://test-cdf76-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "test-cdf76",
+    "storage_bucket": "test-cdf76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38075495436:android:c4554f1fc55404b203ea29",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38075495436-jq25r0dh0plc4bbdk6nmek95u8ihfb6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "b09bca2b3b29017cc08d1847205e67bcca32697d"
+          }
+        },
+        {
+          "client_id": "38075495436-9lp048vs90an9kk6clfkpq8g2mq3hvie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcBC1zARZz2Vk6ENvhZWI2A7QvFjZvf64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38075495436-9lp048vs90an9kk6clfkpq8g2mq3hvie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

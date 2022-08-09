@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolbar"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Create A New Account"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Image"
+                android:textSize="11sp"/>
+        </FrameLayout>
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:background="@color/input_background"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_marginTop="16dp"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:background="@color/input_background"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            />
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_marginTop="13dp"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:background="@color/input_background"
+            android:layout_height="45dp" />
+        <EditText
+            android:id="@+id/inputConfirmPassword"
+            android:layout_marginTop="13dp"
+            android:background="@color/input_background"
+            android:hint="Confirm Password"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="13sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignUp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp" />
+        <TextView
+            android:id="@+id/textSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sign In"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
