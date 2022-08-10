@@ -25,7 +25,7 @@
                 android:id="@+id/profile_image"/>
 
             <TextView
-                android:id="@+id/username"
+                android:id="@+id/inputName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="UserName"
@@ -35,8 +35,23 @@
                 />
 
         </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:background="@color/colorPrimaryDark"
+            app:tabSelectedTextColor="#fff"
+            app:tabIndicatorColor="#fff"
+            app:tabTextColor="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
     </com.google.android.material.appbar.AppBarLayout>
 
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
 
