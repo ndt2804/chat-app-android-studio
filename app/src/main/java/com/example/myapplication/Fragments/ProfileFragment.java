@@ -84,13 +84,11 @@ public class ProfileFragment extends Fragment {
 
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
         });
-
         image_profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -112,7 +110,6 @@ public class ProfileFragment extends Fragment {
         MimeTypeMap mimeTypeMap = MimeTypeMap.getSingleton();
         return mimeTypeMap.getExtensionFromMimeType(contentResolver.getType(uri));
     }
-
     private void uploadImage(){
         final ProgressDialog pd = new  ProgressDialog(getContext()) ;
         pd.setMessage("Uploading");

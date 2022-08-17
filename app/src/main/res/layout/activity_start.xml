@@ -14,11 +14,16 @@
         android:text="Wellcome to Chat App"
         android:textSize="30sp"
         android:textStyle="bold"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="240dp"
+        android:layout_height="268dp"
+        android:src="@mipmap/ic_launcher_hutech_foreground" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="0dp"
         android:id="@+id/login"
         />
     <Button
